@@ -1,0 +1,11 @@
+n= int(input())
+arr = list(map(int, input().split()))
+a = set(arr)
+b = list(a)
+print(b)
+c = len(b)
+j= c-2
+print(j)
+d = sorted(b)
+print(d)
+print(d[j])
